@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(245, 207, 125);
+  padding: 1px;
+}
+
+main {
+  background-color: beige;
+  padding: 1px 25px 30px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  border: 1px solid #000000;
+  padding: 5px 10px 20px;
+  border-radius: 10px;
+  width: 250px;
+  background-color: rgb(195, 236, 195);
+  box-shadow: 2px 2px 2px black;
+}
+
+.badge {
+  background-color: rgb(245, 207, 125);
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.price {
+  color: blue;
+  margin: 2px 0 0;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 1px 25px;
+  background: black;
+  color: white;
+}
